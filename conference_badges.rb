@@ -36,6 +36,7 @@ def assign_rooms(attendees)
       room_number += 1
     end
     return final_room_number_array
+    # returns a list of welcome messages and room assignments
 end
 
 def printer(attendees)
