@@ -40,7 +40,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  room_element_number = 0
+  #room_element_number = 0
   name_element_number = 0
   array_of_badges = batch_badge_creator(attendees)
   array_of_badges.each do |greeting|
