@@ -17,11 +17,15 @@ end
 def batch_badge_creator(attendees)
   badge_created = 0
   final_array = []
+  # creates an empty array
   attendees.each do |speaker|
+    #iterate over attendees array
     final_array.push("Hello, my name is #{speaker}.")
+    # for each attendee, push string onto final array
     badge_created += 1
   end
   return final_array
+  # return an array of badges
 end
 
 def assign_rooms(attendees)
